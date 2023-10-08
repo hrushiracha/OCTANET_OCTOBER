@@ -1,0 +1,122 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    /* padding: 100px 0; */
+    color: rgb(255, 255, 255);
+}
+.hero img{
+    width: 100%;
+    height: 500px;
+}
+
+.content{
+    position: absolute;
+    width: 56%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(255, 255, 255, 0.9); */
+}
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+
+/* Style the pricing section */
+.price {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+.price h1{
+    padding: 0 0 20px 0;
+}
+.price-demo {
+    margin: 0 20px;
+    display: inline-block;
+    border: #333 solid 2px;
+    border-radius: 5px;
+    width: 15%;
+    height: 200px;
+    text-align: center;
+}
+
+.price-demo h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.price-demo p {
+    font-size: 18px;
+    color: #333;
+    line-height: 30px;
+}
+
+/* Style the contact section */
+.contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
